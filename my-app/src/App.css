@@ -17,6 +17,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.simba-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  user-select: none;
+  pointer-events: none;
 }
 
 .App-link {
